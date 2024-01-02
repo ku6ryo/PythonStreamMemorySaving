@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "strm"
+version = "0.0.1"
+description = ""
+authors = ["Ryo Kuroyanagi <im.ryokuro@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psutil = "^5.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
